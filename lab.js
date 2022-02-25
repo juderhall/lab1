@@ -122,10 +122,16 @@ let score = 0
 let passingScore = 7
 
 /*
-  Create a while-loop that logs "Your score is not high enough" while the score variable above is below passingScore. In each iteration of the loop, increase the score by one. If your code is successful, you will see your logged statement 7 times.
+  Create a while-loop that logs "Your score is not high enough" while the score variable above is below passingScore. In each iteration of the loop, increase the score by one. 
+  If your code is successful, you will see your logged statement 7 times.
 */
 
-//CODE HERE
+while (score < 7) {
+  console.log("Your score of " + score + " is not high enough.")
+  score = score + 1
+}
+
+console.log("Your score of " + score + " is high enough.")
 
 ////////// INTERMEDIATE PROBLEMS //////////
 
